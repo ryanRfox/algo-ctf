@@ -21,5 +21,5 @@ response = client.get_limit(address="receiver_address")
 print(response)
 
 # fund the account
-response = client.fund(address=receiver_address, amount=1000, asset_id=0)
+response = client.fund(address=receiver_address, amount=1000000, asset_id=0)
 print(response)
